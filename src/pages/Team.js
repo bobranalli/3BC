@@ -27,7 +27,7 @@ export default function Team() {
                 />
                 <TeamMemberCard
                     name="Piseth"
-                    bio="UX designer focused on creating beautiful and intuitive interfaces."
+                    bio="Sales Consultant with a focus on web services and lead generation."
                     linkedinUrl="https://www.linkedin.com/in/piseth-sam/"
                     imageUrl={Member2}
                 />

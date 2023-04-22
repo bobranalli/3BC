@@ -3,6 +3,7 @@ import '../slideshow/slideshow.css';
 import hand from '../slideshow/images/slide1.png';
 import orb from '../slideshow/images/slide2.png';
 import mount from '../slideshow/images/slide3.png';
+import pp from '../slideshow/images/past-logos.png';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -42,10 +43,6 @@ export default function Home() {
     return (
         <div>
             <div className="slideshow-title">Past Projects</div>
-            <div className="slideshow-header">Below are a few of our past projects - ranging from websites we've built and redesigned, to social media projects, to HubSpot optimization projects</div>
-            <hr></hr>
-
-
             {/* <ImageSlider slides={SliderData} /> */}
 
             <div className="slider-wrapper">
@@ -64,6 +61,10 @@ export default function Home() {
                     ))}
                 </div>
             </div>
+
+            <div className='slideshow-title'>Brands We've Worked With</div>
+            <img className='pp-image' src={pp} alt="logos from previous projects"></img>
+
         </div>
     );
 }

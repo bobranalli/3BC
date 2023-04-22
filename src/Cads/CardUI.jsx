@@ -12,7 +12,7 @@ const Card = props => {
                 <p className="card-text text-secondary">
                     {props.content}
                 </p>
-                <a href="mailto: robertranalli99@gmail.com" className="btn btn-outline-success">Contact Us</a>
+                <a href="mailto: robertranalli99@gmail.com" className="btn contact-button">Contact Us</a>
             </div>
 
         </div>

@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Team from "./pages/Team";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./Footer";
+import logo from "./logo1.png"
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
+
+            <Footer email="example@example.com" companyLogo={logo} />
 
         </>
     )

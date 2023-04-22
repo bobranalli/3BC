@@ -59,3 +59,14 @@
         margin: 1rem;
     }
 }
+
+.contact-button {
+    color: #0398dc;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid #0398dc;
+}
+
+.contact-button:hover {
+    color: #fff;
+    background-color: #0398dc;
+}
