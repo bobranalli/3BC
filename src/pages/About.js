@@ -64,7 +64,6 @@ export default function Home() {
 
             <div className='slideshow-title'>Brands We've Worked With</div>
             <img className='pp-image' src={pp} alt="logos from previous projects"></img>
-
         </div>
     );
 }

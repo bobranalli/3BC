@@ -24,7 +24,7 @@ function App() {
                 </Routes>
             </div>
 
-            <Footer email="example@example.com" companyLogo={logo} />
+            <Footer email="3BCWebServices@gmail.com" companyLogo={logo} />
 
         </>
     )
